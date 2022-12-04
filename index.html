@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        #main {
+            background-color: #fffccc;
+            text-align: center;
+            padding: 100px;
+            width: 180px;
+        }
+
+    </style>
+
+    <title>eventinho DOM</title>
+
+</head>
+<body>
+
+    <div id="main" onclick="clicae()" onmouseenter="dendelish()" onmouseout="foradelish()">
+        esse é o momento que o mar divide paicero
+    </div>
+    
+    <script>
+
+function clicae() {
+    main.style.background = '#fff'
+    main.innerText = 'TROXA'
+    main.style.color = 'red'
+}
+
+function dendelish() {
+    main.style.background = 'pink'
+    main.style.color = 'red'
+    main.innerText = 'vem ni mim bb clica no meu corpinho'
+}
+
+function foradelish() {
+    main.style.background = 'black'
+    main.style.color = 'brown'
+    main.innerText = 'volta pra mim s2'
+}
+
+    </script>
+
+</body>
+</html>
